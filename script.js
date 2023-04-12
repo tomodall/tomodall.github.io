@@ -3,8 +3,8 @@
   const downloadBtn = document.querySelector('#download-btn');
   
   downloadBtn.addEventListener('click', () => {
-    const fileURL = '파일경로/파일이름.pdf';
-    const fileName = '파일이름.pdf';
+    const fileURL = 'C:\Users\wlwpf\OneDrive\바탕 화면\2023_1.pdf';
+    const fileName = '2023_1.pdf';
     saveAs(fileURL, fileName);
   });
 </script>
